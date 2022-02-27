@@ -1,0 +1,32 @@
+@import "../../common/colors.scss";
+.card-item {
+  background: $shadow-color;
+  cursor: pointer;
+  transition: all 0.3s;
+
+  &:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+  }
+}
+
+.card-top {
+  height: 400px;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.card-bottom {
+  padding: 30px;
+}
+.card-info {
+  color: $font-secondary;
+  h4 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+}
